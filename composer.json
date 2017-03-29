@@ -1,0 +1,21 @@
+{
+  "name": "xiian/composer-generator",
+  "license": "MIT",
+  "description": "Generate composer packages adhering to certain standards and conventions.",
+  "type": "composer-plugin",
+  "autoload": {
+    "psr-4": {
+      "xiian\\ComposerGenerator\\": "src"
+    }
+  },
+  "require": {
+    "composer-plugin-api": "^1.0",
+    "pds/skeleton": "^1.0"
+  },
+  "require-dev": {
+    "composer/composer": "1.4.1"
+  },
+  "extra": {
+    "class": "xiian\\ComposerGenerator\\Plugin"
+  }
+}
